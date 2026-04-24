@@ -7,7 +7,7 @@ import react from '@vitejs/plugin-react';
 //   - statikus file:// zip: VITE_BASE='./'
 export default defineConfig({
   plugins: [react()],
-  base: process.env.VITE_BASE || '/',
+  base: '/matekra/',
   build: {
     chunkSizeWarningLimit: 2000,
     rollupOptions: {

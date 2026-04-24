@@ -26,7 +26,7 @@ export default function App() {
       </header>
 
       <main>
-        <Routes>
+        <Routes basename="matekra">
           <Route path="/" element={<Home />} />
           <Route path="/task/:id" element={<TaskPage />} />
           <Route path="/topics" element={<TopicsPage />} />
